@@ -1,0 +1,74 @@
+.pic-info-container {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-img {
+  width: 50%;
+  border-radius: 50%;
+  border: 3px solid #181818;
+}
+
+.about-heading {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+}
+
+.name {
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.bio {
+  word-spacing: 0.3em;
+  line-height: 1.5em;
+}
+
+.aloron {
+  margin: 1.5em auto;
+  word-spacing: 0.3em;
+  line-height: 1.5em;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 4em auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-media a i {
+  font-size: 3.5rem;
+  color: #181818;
+  padding: 0.5em;
+  transition: all ease-in-out 0.5s;
+}
+.social-media a i:hover {
+  color: #ffcc00;
+}
+
+.follow-me {
+  font-size: 1rem;
+  margin: 1em;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+  .my-img {
+    width: 20%;
+  }
+  .about-heading {
+    font-size: 1.1rem;
+  }
+}

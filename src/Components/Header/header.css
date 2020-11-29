@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcc00;
+}
+
+.logo {
+  font-size: 1.9rem;
+  font-family: "Dancing Script", cursive;
+  margin: 0.3em 0;
+  margin-left: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+.home,
+.about {
+  font-size: 1rem;
+}
+
+.home-logo,
+.about-logo {
+  width: 2em;
+  padding: 0 0.2em;
+  margin: 0 0.3em;
+}
+
+.about-logo {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.about-logo:hover {
+  border-bottom: 0.5px solid #181818;
+}

@@ -1,0 +1,28 @@
+.create-post {
+  display: flex;
+  margin: 3em auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.create-post-title {
+  height: 7vh;
+  margin: 1em;
+}
+
+.create-post-content {
+  margin: 1em;
+  height: 20vh;
+}
+.create-post-submit,
+.sign-out {
+  width: 50%;
+  height: 10%;
+  margin: 0.5em auto;
+}

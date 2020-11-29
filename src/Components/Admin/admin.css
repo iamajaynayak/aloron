@@ -1,0 +1,29 @@
+.Ajay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 20vh;
+  margin-top: 3em;
+}
+
+.email,
+.password {
+  width: 70%;
+  margin-bottom: 1em;
+  height: 25%;
+}
+
+.login {
+  width: 30%;
+  font-size: 1.2rem;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  border-color: transparent;
+}

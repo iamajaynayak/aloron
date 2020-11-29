@@ -1,0 +1,13 @@
+.titles {
+  display: flex;
+  justify-content: center;
+  margin: 0.7em 0;
+  position: relative;
+}
+
+.title-heading {
+  font-size: 1.3rem;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
